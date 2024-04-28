@@ -1,0 +1,105 @@
+.Left {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    position: fixed;
+    width: 360px;
+
+    #intro {
+        height: 200px;
+
+        #name {
+            font-size: 50px;
+            color: rgba(215, 223,239, 1);
+            font-weight: 600;
+        }
+
+        #role {
+            font-size: 20px;
+            color: rgba(215, 223,239, 1);
+            font-weight: 500;
+        }
+
+        #position-description {
+            font-size: 16px;
+            font-weight: 400;
+            margin-top: 20px;
+        }
+    }
+    
+    #rightindex {
+        height: 690px;
+       
+
+        a {
+            font-size: 13px;
+            font-weight: 600;
+            padding-top: 22px;
+            color: rgba(109, 127, 161, 1);
+            text-decoration: none;
+            display: flex;
+            gap: 10px;
+            width: 120px;
+            align-items: center;
+        }
+
+        a:before {
+            content: '';
+            height: 2px;
+            flex-grow: 1;
+            display: block;
+            background-color: rgba(109, 127, 161, 1);
+        }
+
+        a:hover {
+            font-size: 13px;
+            font-weight: 600;
+            padding-top: 22px;
+            color: rgba(215, 223,239, 1);
+            text-decoration: none;
+            display: flex;
+            gap: 10px;
+            width: 150px;
+            align-items: center;
+        }
+
+        a:before:hover {
+            content: '';
+            height: 2px;
+            flex-grow: 1;
+            display: block;
+            color: rgba(215, 223,239, 1);
+
+        }
+
+
+    }
+
+    #socialmedia {
+        height: 90px;
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        align-items: center;
+        
+
+        div {
+            background-color: black;
+            height: 30px;
+            width: 30px;
+        }
+
+        a {
+            font-size: 25px;
+            color: rgba(109, 127, 161, 1);
+            text-decoration: none;
+        }
+
+        a:hover {
+            font-size: 25px;
+            color: rgba(215, 223,239, 1);
+            text-decoration: none;
+        }
+    }
+    
+}

@@ -1,0 +1,29 @@
+.App {
+
+    #portfolio {
+        display: flex;
+        flex-direction: row;
+        height: 200vh;
+        width: auto;
+        padding: 50px;
+        gap: 7%;
+
+
+        #left-box {
+            height: 90%;
+            width: 43%;
+            margin-top: 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+        }
+    
+    
+        #right-box {
+            height: 100%;
+            width: 50%;
+            left: 1100px;
+            margin: 30px;
+        }
+    }
+}

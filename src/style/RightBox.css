@@ -1,0 +1,257 @@
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 100px;
+    padding-right: 100px;
+
+    #main {
+        display: flex;
+        flex-direction: column;
+        gap: 130px;
+
+        #about {
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 26px;
+
+            span {
+                font-weight: 600;
+                color: rgba(215, 223,239, 1);
+            }
+        }
+
+        
+        .chips {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            flex-wrap: wrap;
+
+            span {
+                font-size: 12px;
+                font-weight: 500;
+                color: rgba(85, 213,201, 1);
+                background-color: rgba(18, 43,57, 1);
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-top: 6px;
+                padding-bottom: 6px;
+                border-radius: 20px;
+            }
+        }
+        
+        
+        .head {
+            font-size: 16px;
+            font-weight: 600;
+            color: rgba(215, 223,239, 1);
+        }
+        
+        .details {
+            font-size: 14px;
+        }
+
+        .img {
+            height: 55px;
+            width: 98px;
+            border: 1px solid rgb(35, 35, 45);
+            border-radius: 5px;
+        }
+
+
+        
+        #cardbox {
+            width: 480px;
+            display: flex;
+            flex-direction: column;
+            gap: 120px;
+        }
+
+
+
+        #experiance  {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            .excrd {
+                display: flex;
+                flex-direction: row;
+                padding: 20px;
+                box-sizing: border-box;
+                gap: 5%;
+
+
+                .date {
+                    width: 20%;
+                    font-size: 13px;
+                }
+
+                .expcrdright {
+                    display: flex;
+                    flex-direction: column;
+                    width: 75%;
+                    gap: 10px;
+    
+                }
+                .role {
+                    font-size: 16px;
+                    font-weight: 600;
+                    margin-top: -10px;
+                }
+                .links {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 15px;
+
+                    span {
+                        font-size: 14px;
+                        font-weight: 500;
+                        color: rgba(215, 223,239, 1);
+                    }
+                    span:hover {
+                        font-size: 14px;
+                        font-weight: 500;
+                        color: rgba(85, 213,201, 1);
+                    }
+                }
+
+            }
+
+
+            .excrd:hover {
+                display: flex;
+                flex-direction: row;
+                padding: 20px;
+                gap: 5%;
+                background-color: rgba(62, 76, 110, 0.135);
+                padding: -20px;
+                border-radius: 8px;
+
+
+                .head {
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: rgba(85, 213,201, 1)
+                }
+
+            }
+
+        }
+
+
+
+        #project {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+
+            .pjcrd {
+                display: flex;
+                flex-direction: row;
+                
+                padding: 20px;
+                box-sizing: border-box;
+                gap: 5%;
+
+    
+                .prjcardright {
+                    display: flex;
+                    flex-direction: column;
+                    width: 75%;
+                    gap: 10px;
+                }
+
+                .rate {
+                    color: white;
+                    font-size: 15px;
+                }
+            }
+
+            .pjcrd:hover {
+                display: flex;
+                flex-direction: row;
+                padding: 20px;
+                gap: 5%;
+                background-color: rgba(62, 76, 110, 0.135);
+                padding: -20px;
+                border-radius: 8px;
+
+
+                .head {
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: rgba(85, 213,201, 1)
+                }
+
+                .img {
+                    height: 55px;
+                    width: 98px;
+                    border: 1px solid rgb(72, 72, 90);
+                    border-radius: 5px;
+                }
+            }
+        }
+
+        #writting {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            .wtcrd {
+                display: flex;
+                flex-direction: row;
+                padding: 20px;
+                box-sizing: border-box;
+                gap: 5%;
+
+    
+                .wrtcardright {
+                    display: flex;
+                    flex-direction: column;
+                    width: 75%;
+                    gap: 10px;
+                }
+            }
+
+            .wtcrd:hover {
+                display: flex;
+                flex-direction: row;
+                padding: 20px;
+                gap: 5%;
+                background-color: rgba(62, 76, 110, 0.135);
+                padding: -20px;
+                border-radius: 8px;
+
+
+                .head {
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: rgba(85, 213,201, 1)
+                }
+
+                .img {
+                    height: 55px;
+                    width: 98px;
+                    border: 1px solid rgb(72, 72, 90);
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+
+
+    footer {
+        padding-bottom: 70px;
+        font-size: 14px;
+        color: rgb(112, 114, 117);
+
+        span {
+            color: rgb(207, 209, 210);
+        }
+    }
+
+}
+
